@@ -7,14 +7,4 @@ let title = "About Me";
 
 ---
 
-<script>
-function sleep(ms) {
-    return new Promise(resolve => setTimeout(resolve, ms));
-}
-for (let i=0; i<100; i++){
-    document.getElementsByTagName("h1")[0].innerHTML = i.toString();
-    await sleep(100);
-}</script>
-
-
 <h1>{title}</h1>
